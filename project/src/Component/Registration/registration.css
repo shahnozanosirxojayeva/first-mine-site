@@ -1,0 +1,72 @@
+.registration-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(245, 243, 243);
+    padding: 20px 0;
+    height: 89.5vh;
+    transition: 0.3s ease all;
+}
+.registration-page.dark{
+    background: rgb(97, 97, 97);
+}
+.registration-page.purple{
+    background: #726A95;
+}
+
+.label{
+    font-size: 18px;
+}
+
+.reg-input{
+    width: 100%;
+    border: 0.1px solid #333;
+    padding: 5px 14px;
+    font-size: 16px;
+    margin-top: 5px;
+    outline: 0;
+}
+
+.registration-card{
+    width: 320px;
+    padding: 14px  20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 10px 5px 5px grey;
+    transition: 0.3s ease all;
+}
+.registration-card.dark{
+    background: #333;
+    color: #eee;
+    box-shadow: 0 0 0 #333;
+}
+.registration-card.purple{
+    box-shadow: 0 0 0 #333;
+    color: #374045;
+}
+
+.reg-btn{
+    width: 100%;
+    background: rgb(109, 189, 255);
+    color: #eee;
+    border: 0;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 0.3s ease all;
+}
+.reg-btn.dark{
+    background: #E79E4F;
+}
+.reg-btn.purple{
+    background: #6A097D;
+}
+
+
+@media (max-width: 620px) {
+   
+    .registration-card{
+        width: 300px;
+    }
+
+  }

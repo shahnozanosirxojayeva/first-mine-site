@@ -1,0 +1,83 @@
+.write{
+    background: #fff;
+    min-height: 89.5vh;
+}
+.write.dark{
+    background: rgb(102, 102, 102);
+}
+.write.purple{
+    background: #726A95;
+    color: #222831;
+}
+
+.input{
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgb(129, 129, 129);
+    border-right: 0;
+    outline: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+.input.dark{
+   background: rgb(238, 238, 238);
+}
+.submit-btn{
+    width: 10%;
+    height: 50px;
+    border: 0;
+    margin-top: 0;
+    font-size: 18px;
+    background: #54A4AF;
+    color: #eee;
+}
+.submit-btn.dark{
+    background: #f0c363;
+}
+
+.text-aria{
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid rgb(129, 129, 129);
+    outline: 0;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+.text-aria.dark{
+    background: rgb(238, 238, 238);
+}
+
+.post{
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid rgb(129, 129, 129);
+    min-height: 200px;
+    margin: 5px 0;
+}
+.post.dark{
+    background: rgb(238, 238, 238);
+}
+
+.w-500{
+    width: 500px;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.del-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
